@@ -1,0 +1,51 @@
+.banner {
+  position: relative;
+  min-height: 60vh;
+  padding: 10px 0px;
+  background: url("../../assets/images/netEarth.jpg");
+  background-size: cover;
+  //   background-position-y: -15em;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+.col-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.over-img {
+  margin-top: 30px;
+  background-color: rgba(87, 83, 95, 0.473);
+  border-radius: 8px;
+  z-index: 1000;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.banner-title {
+  color: white;
+  font-size: 28px;
+  > b {
+    color: chartreuse;
+  }
+}
+
+.banner-subtitle {
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.button-header {
+  background-color: rgb(10, 177, 32);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  position: relative;
+  display: block;
+  border: none;
+}
